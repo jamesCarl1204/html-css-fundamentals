@@ -1,4 +1,8 @@
 body {
+    background-image: url("player.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
     background-color:lightblue
 }
 h1 {
