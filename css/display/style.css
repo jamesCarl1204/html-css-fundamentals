@@ -1,0 +1,28 @@
+p {
+    background-color: blue;
+    padding: 10px;
+}
+span {
+    background-color: green;
+    color:white;
+    padding:10px;
+}
+p.ex1 {display: none;}
+p.ex2 {display: inline;}
+p.ex3 {display: block;}
+p.ex4 {display: inline-block;}
+p.ex5 {display: flex;}
+p.ex6 {display: grid;}
+
+#panel, .flip {
+    padding: 10px;
+    text-align: center;
+    background-color: aqua;
+    color: white;
+    border: solid 1px blue;
+    margin: auto;
+    cursor: pointer
+}
+#panel {
+    display: none;
+}

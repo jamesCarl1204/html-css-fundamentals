@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <span>span</span>
+     <span>span</span>
+
+     <h2>display: none</h2>
+     <p class="ex1">
+        <span>txt1</span>
+        <span>txt2</span>
+        <span>txt3</span>
+     </p>
+
+     <h2>display: inline</h2>
+     <p class="ex2">
+        <span>txt1</span>
+        <span>txt2</span>
+        <span>txt3</span>
+     </p>
+
+     <h2>display: block</h2>
+     <p class="ex3">
+        <span>txt1</span>
+        <span>txt2</span>
+        <span>txt3</span>
+     </p>
+
+     <h2>display: inline-block</h2>
+     <p class="ex4">
+        <span>txt1</span>
+        <span>txt2</span>
+        <span>txt3</span>
+     </p>
+
+     <h2>display: flex</h2>
+     <p class="ex5">
+        <span>txt1</span>
+        <span>txt2</span>
+        <span>txt3</span>
+     </p>
+
+     <h2>display: grid</h2>
+     <p class="ex6">
+        <span>txt1</span>
+        <span>txt2</span>
+        <span>txt3</span>
+     </p>
+
+     <p class="flip" onclick="myFunc()">click to show panel</p>
+
+     <div id="panel">
+        <p>
+            hello world
+        </p>
+     </div>
+
+     <script>
+        function myFunc() {
+           let x = document.getElementById("panel");
+           if(x.style.display === "none") {
+            x.style.display = "block";
+           } else {
+            x.style.display = "none"
+           }
+        }
+     </script>
+     
+</body>
+</html>
+
