@@ -1,0 +1,18 @@
+.p1 {
+    font-family: "Times New Roman";
+}
+p.italic {
+    font-style: italic;
+}
+p.normal {
+    font-weight: normal
+}
+p.lighter {
+    font-weight: lighter
+}
+p.bold {
+    font-weight: bold
+}
+p.font {
+    font-family: "Rubik Spray Paint"
+}
