@@ -1,0 +1,45 @@
+div {
+    border: 1px solid gray;
+    padding: 8px;
+}
+h1.format {
+    text-align:center;
+    text-transform: uppercase;
+    color: aqua;
+}
+p {
+    text-indent: 100px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+h1.one {
+    text-decoration: overline;
+}
+h2.two {
+    text-decoration: line-through;
+}
+h3.three {
+    text-decoration: underline
+}
+p.ex {
+    text-decoration: overline underline
+}
+h1.underline {
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+h2.double {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+h3.dotted {
+    text-decoration: underline;
+    text-decoration-style: dotted
+}
+p.wavy{
+    text-decoration: underline;
+    text-decoration-style: wavy
+}
+h1.shadow {
+    text-shadow:2px 2px 5px blue
+}
