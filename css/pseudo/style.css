@@ -1,0 +1,19 @@
+.div1 {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.div1:hover {
+    background-color:blue
+}
+input:focus {
+    background-color: yellow
+}
+p:first-child {
+    color: blue;
+}
+p em:first-child {
+    color: blue
+}
