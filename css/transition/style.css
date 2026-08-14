@@ -9,3 +9,46 @@ div:hover{
     margin-left: 500px
     
 }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    background-color: aqua;
+    padding: 10px;
+
+}
+li{
+  position: relative;
+  padding-bottom: 5px
+}
+
+li:after {
+    content: '';
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:0;
+    height: 2px;
+    background-color: blue;
+    transition: width 2s
+}
+li:hover::after {
+    width:100%
+}
+
+#li1 {
+    transition-timing-function: linear;
+}
+#li2 {
+    transition-timing-function: ease;
+}
+#li3 {
+    transition-timing-function: ease-in;
+}
+#li4 {
+    transition-timing-function: ease-out;
+}
+#li5 {
+    transition-timing-function: ease-in-out;
+}
