@@ -1,0 +1,5 @@
+#borderimg {
+    border: 10px solid transparent;
+    padding: 150x;
+    border-image: url(BG2.png) 30 stretch
+}
