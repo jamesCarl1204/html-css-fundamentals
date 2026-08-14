@@ -1,0 +1,31 @@
+#grad1 {
+    height: 200px;
+    background-color: blue;
+
+    background-image: linear-gradient(to top, aqua, purple)
+}
+#grad2 {
+    height: 200px;
+    background-color: blue;
+
+    background-image: linear-gradient(to bottom, aqua, purple)
+}
+#grad3 {
+    height: 200px;
+    background-color: blue;
+
+    background-image: linear-gradient(to right, aqua, purple)
+}
+#grad4 {
+    height: 150px;
+    width: 200px;
+    background-color: blue;
+
+    background-image: radial-gradient( aqua, purple, blue)
+}
+#grad5{
+    height:200px;
+    width: 200px;
+    background-color: blue;
+    background-image: conic-gradient(aqua, purple, blue)
+}
