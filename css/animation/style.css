@@ -1,0 +1,29 @@
+.div1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: myAnimation;
+    animation-duration: 4s
+}
+
+@keyframes myAnimation {
+    from {background-color: blue}
+    to {background-color: aqua}
+}
+.div2 {
+    width:100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation-name:myAnimation2;
+    animation-duration: 4s;
+}
+
+@keyframes myAnimation2 {
+    0% {background-color: blue; left:0px; top:0px}
+    25% {background-color: aqua; left: 200px; top:0px}
+    50% {background-color: green; left:200px; top: 200px}
+    75% {background-color: orange; left: 0px; top: 200px}
+    100% {background-color: yellow; left: 0px; top:0px}
+}
+
