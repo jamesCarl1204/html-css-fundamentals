@@ -1,0 +1,60 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.details{
+    width:50%;
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem
+}
+
+.login{
+   width: 50%;
+   height: 100vh;
+   display: flex;
+   align-items:center;
+   justify-content:center
+}
+
+.login form {
+   display:flex;
+   flex-direction: column;
+   gap:10px;
+   border: solid 10px blue;
+   height: 500px;
+   width: 500px;
+   justify-content: center;
+   align-items:center;
+   border-radius: 20px
+}
+
+.login input{
+    width: 300px;
+    padding: 10px
+}
+
+.login button {
+   width: 200px;
+   padding: 10px;
+   background-color: green;
+   color: white
+}
+
+.login label {
+    font-size: 1.3rem;
+    font-family: 'Times New Roman' Times;
+    
+}
+
+
